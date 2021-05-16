@@ -53,9 +53,9 @@
                   ${task.done ? "✓" : " "}
                </button>
 
-               <span class="list__span js-taskContent">
+               <span class="list__span js-taskContent"></span>
                   ${task.content}
-               </span>
+               
                <button class="list__button list__button--remove js-remove">🗑</button>
             </li>
             `;
