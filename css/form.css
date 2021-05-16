@@ -1,0 +1,40 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    padding: 20px;
+}
+
+@media(max-width: 767px) {
+    .form {
+        flex-direction: column;
+    }
+}
+
+.form__input {
+    border: 1px solid #ccc;
+    flex-grow: 3;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+@media(max-width: 767px) {
+    .form__input {
+        margin: 0 0 10px;
+    }
+}
+
+.form__button {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.form__button:hover {
+    cursor: pointer;
+}
+
+.form__button:active {
+    outline: 2px solid #000;
+}
