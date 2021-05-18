@@ -34,11 +34,16 @@
                <button class="list__button list__button--done js-done">
                   ${task.done ? "✓" : " "}
                </button>
-
-               <span class="list__span js-taskContent"></span>
-                  ${task.content}
+                
+                <span class="${task.done ? "list__span list__span--done" : "list__span"}">
+                ${task.content}
+                </span>
+            
+               <button class="list__button list__button--remove js-remove">
+               🗑
+               </button>
                
-               <button class="list__button list__button--remove js-remove">🗑</button>
+       
             </li>
             `;
         }
