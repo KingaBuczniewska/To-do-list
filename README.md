@@ -3,32 +3,32 @@
 ## Demo
 https://kingabuczniewska.github.io/To-do-list/
 
-## Table of contents :ledger:
-* [General info](href="#general-info")
-* [Screenshot](href="#screenshot")
-* [Logo](href="#logo")
-* [Technologies](href="#technologies")
-* [How to use](href="#how-to-use")
+## Table of contents    :ledger:
+* [General info](#general-info)
+* [Screenshot](#screenshot)
+* [Logo](#logo")
+* [Technologies](#technologies)
+* [How to use](#how-to-use)
 
-## General info :mag: (id="general-info")
+## General info    :mag: 
 
 This is simple To-do list creator. You can add tasks, check them and remove.
 
-## Screenshot :camera: (id="screenshot")
+## Screenshot    :camera: 
 ![](https://github.com/KingaBuczniewska/To-do-list/blob/main/images/screenshot.jpg?raw=true)
 
-## Logo :crayon: (id="logo")
+## Logo    :crayon: 
 ![Here's my logo](https://github.com/KingaBuczniewska/To-do-list/blob/main/images/logo.png?raw=true)
 
 
-## Technologies :computer: (id="technologies")
+## Technologies    :computer: 
 * HTML
 * CSS
 * BEM
 * ES6+
 * Flex
 
-## How to use (id="how-to-use")
+## How to use 
 * Click on "Co jest do zrobienia" and write your task 
 * Click enter 
 * Your task are below the line 
