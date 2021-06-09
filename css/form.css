@@ -1,39 +1,33 @@
 .form {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 16px;
-    padding: 20px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
 }
 
 @media(max-width: 767px) {
     .form {
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 }
 
 .form__input {
-    border: 1px solid #ccc;
-    flex-grow: 3;
-    margin-right: 20px;
     padding: 10px;
-}
-
-@media(max-width: 767px) {
-    .form__input {
-        margin: 0 0 10px;
-    }
+    border: 1px solid #ddd;
 }
 
 .form__button {
-    background-color: teal;
-    color: white;
     padding: 10px;
+    background: hsl(180, 100%, 25%);
+    color: white;
     border: none;
-    flex-grow: 0;
-    flex-shrink: 0;
+    transition: 0.3s;
 }
 
 .form__button:active {
     background-color: hsl(180, 100%, 30%);
+}
+
+.form__button:hover {
+    background: hsl(180, 100%, 30%);
+    transform: scale(1.1);
 }
