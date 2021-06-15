@@ -26,7 +26,7 @@ This is simple To-do list creator. You can add tasks, check them and remove.
 * CSS
 * BEM
 * ES6+
-* Flex
+* Grid
 
 ## How to use 
 * Click on "Co jest do zrobienia" and write your task 
